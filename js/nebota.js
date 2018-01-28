@@ -1,8 +1,6 @@
         function validate() {
-            var username = document.getElementById("username").value;
-            var password = document.getElementById("password").value;
-                var u = username.hashCode();
-                var p = password.hashCode();
+            var username = document.getElementById("username".hashCode()).value;
+            var password = document.getElementById("password".hashCode()).value;
             if (username == null || username == "") {
                 alert("Please enter the username.");
                 return false;
@@ -11,7 +9,7 @@
                 alert("Please enter the password.");
                 return false;
             }
-            if (u == amplify.store("uu") || p == amplify.store("pp")){
+            if (username == amplify.store("uu") || password == amplify.store("pp")){
                 alert('Login successful');
                 return true;
             }
