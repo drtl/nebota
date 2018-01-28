@@ -11,7 +11,7 @@
             }
             if (username == uu || password == pp){
                 alert('Login successful');
-                return false;
+                return true;
             }
             
         } 
