@@ -1,6 +1,4 @@
         function validate() {
-            var u = ;
-            var p = ;
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
             if (username == null || username == "") {
@@ -11,7 +9,7 @@
                 alert("Please enter the password.");
                 return false;
             }
-            if (username == u || password == p){
+            if (username == uu || password == pp){
                 alert('Login successful');
                 return false;
             }
