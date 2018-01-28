@@ -9,7 +9,7 @@
                 alert("Please enter the password.");
                 return false;
             }
-            if (username == uu || password == pp){
+            if (username == amplify.store("uu") || password == amplify.store("pp")){
                 alert('Login successful');
                 return true;
             }
