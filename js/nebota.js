@@ -1,15 +1,17 @@
         function validate() {
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
-            if (username.hashCode() == null || username.hashCode() == "") {
+                var u = username.hashCode();
+                var p = password.hashCoder();
+            if (username == null || username == "") {
                 alert("Please enter the username.");
                 return false;
             }
-            if (password.hashCode() == null || password.hashCode() == "") {
+            if (password == null || password == "") {
                 alert("Please enter the password.");
                 return false;
             }
-            if (username.hashCode() == amplify.store("uu") || password.hashCode() == amplify.store("pp")){
+            if (u == amplify.store("uu") || p == amplify.store("pp")){
                 alert('Login successful');
                 return true;
             }
