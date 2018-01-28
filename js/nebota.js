@@ -2,7 +2,7 @@
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
                 var u = username.hashCode();
-                var p = password.hashCoder();
+                var p = password.hashCode();
             if (username == null || username == "") {
                 alert("Please enter the username.");
                 return false;
