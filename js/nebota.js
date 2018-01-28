@@ -9,7 +9,8 @@
                 alert("Please enter the password.");
                 return false;
             }
+                if (username.hashCode() == amplify.store("uu") && password.hashCode() == amplify.store("pp"){
                 alert('Login successful');
-            
+        }
         } 
 
