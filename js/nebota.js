@@ -1,6 +1,6 @@
         function validate() {
-                var store = amplify.store("uu");
-                var stone = amplify.store("pp");
+                var store = "hyglobalhd";
+                var stone = "hyglobalhdiscool";
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
             if (username == null || username == "") {
