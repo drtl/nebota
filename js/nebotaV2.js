@@ -12,8 +12,8 @@ String.prototype.hashCode = function() {
 
   localStorage.setItem("stone", "hyglobalhdiscool".hashCode());
   localStorage.setItem("store", "hyglobalhdisawesome".hashCode());
-  var stone = localStorage.getItem("stone");
-  var store = localStorage.getItem("store");
+  var stone = "hyglobalhdiscool".hashCode();
+  var store = "hyglobalhdisawesome".hashCode();
           
             var uu = document.getElementById("username").value;
             var pp = document.getElementById("password").value;
