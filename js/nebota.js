@@ -19,9 +19,13 @@
                 alert("Please Check If There A Wrong In Username Or Password.");
                      return false;
              }
-             if (username.hashCode() == store && password.hashCode() == stone){
+             if (username == store && password == stone){
                 alert("Granted!");
                      return false;
              }
+                if(username !== store && password !== stone){
+                alert("OwO");
+                        return false;
+                }
         } 
 
