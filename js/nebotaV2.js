@@ -37,6 +37,7 @@ String.prototype.hashCode = function() {
              }
              if (username == store && password == stone){
                 alert("Granted!");
+                window.location.href="wait.htm";
                      return false;
              }
                 if(username !== store && password !== stone){
