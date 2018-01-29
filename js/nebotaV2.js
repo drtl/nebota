@@ -7,23 +7,15 @@ String.prototype.hashCode = function() {
     hash |= 0; // Convert to 32bit integer
   }
   return hash;
-};
+}
 
-function getVar(id) {
   localStorage.setItem("stone", "hyglobalhdiscool".hashCode());
   localStorage.setItem("store", "hyglobalhdisawesome".hashCode());
   
   
   var stone = localStorage.getItem("stone");
   var store = localStorage.getItem("store");
-  
-  switch(id.toLowerCase()){
-    case "uu":
-      return store;
-    case "pp":
-      return stone;
-  }
-}
+
 
         function validate() {
             var uu = document.getElementById("username").value;
@@ -38,19 +30,19 @@ function getVar(id) {
                 alert("The Form Is In-Complete.");
                 return false;
             }
-             if (username == getVar("uu") && password !== getVar("pp")){
+             if (username == store && password !== stone){
                 alert("Please Check If There A Wrong In Username Or Password.");
                      return false;
             }
-             if (username !== getVar("uu") && password == getVar("pp")){
+             if (username !== store && password == stone){
                 alert("Please Check If There A Wrong In Username Or Password.");
                      return false;
              }
-             if (username == getVar("uu") && password == getVar("pp")){
+             if (username == store && password == stone){
                 alert("Granted!");
                      return false;
              }
-                if(username !== getVar("uu") && password !== getVar("pp")){
+                if(username !== store && password !== stone){
                 alert("OwO");
                         return false;
                 }
