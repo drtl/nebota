@@ -21,7 +21,7 @@
              }
              if (username.hashCode() == store && password.hashCode() == stone){
                 alert("Granted!");
-                     return true;
+                     return false;
              }
         } 
 
