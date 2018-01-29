@@ -7,17 +7,14 @@ String.prototype.hashCode = function() {
     hash |= 0; // Convert to 32bit integer
   }
   return hash;
-}
+};
+        function validate() {
 
-  localStorage.setItem("stone", "hyglobalhdiscool");
-  localStorage.setItem("store", "hyglobalhdisawesome");
-  
-  
+  localStorage.setItem("stone", "hyglobalhdiscool".hashCode());
+  localStorage.setItem("store", "hyglobalhdisawesome".hashCode());
   var stone = localStorage.getItem("stone");
   var store = localStorage.getItem("store");
-
-
-        function validate() {
+          
             var uu = document.getElementById("username").value;
             var pp = document.getElementById("password").value;
             var username = uu.hashCode();
