@@ -9,8 +9,8 @@ String.prototype.hashCode = function() {
   return hash;
 }
 
-  localStorage.setItem("stone", "hyglobalhdiscool".hashCode());
-  localStorage.setItem("store", "hyglobalhdisawesome".hashCode());
+  localStorage.setItem("stone", "hyglobalhdiscool");
+  localStorage.setItem("store", "hyglobalhdisawesome");
   
   
   var stone = localStorage.getItem("stone");
