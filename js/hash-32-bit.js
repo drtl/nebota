@@ -13,6 +13,6 @@ String.prototype.hashCode = function() {
 function alert(){
 let msg = document.getElementById("msg").value;
 let hash = msg.hashCode();
-return alert(hash);
-
+alert(hash);
+return false;
 }
