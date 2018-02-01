@@ -1,5 +1,5 @@
 String.prototype.hashCode = function() {
-  var hash = 0, i, chr;
+  let hash = 0, i, chr;
   if (this.length === 0) return hash;
   for (i = 0; i < this.length; i++) {
     chr   = this.charCodeAt(i);
@@ -12,13 +12,13 @@ String.prototype.hashCode = function() {
 
   localStorage.setItem("stone", "hyglobalhdiscool".hashCode());
   localStorage.setItem("store", "hyglobalhdisawesome".hashCode());
-  var stone = "hyglobalhdiscool".hashCode();
-  var store = "hyglobalhdisawesome".hashCode();
+  let stone = "hyglobalhdiscool".hashCode();
+  let store = "hyglobalhdisawesome".hashCode();
           
-            var uu = document.getElementById("username").value;
-            var pp = document.getElementById("password").value;
-            var username = uu.hashCode();
-            var password = pp.hashCode();
+            let uu = document.getElementById("username").value;
+            let pp = document.getElementById("password").value;
+            let username = uu.hashCode();
+            let password = pp.hashCode();
             if (username == null || username == "") {
                 alert("The Form Is In-Complete.");
                 return false;
