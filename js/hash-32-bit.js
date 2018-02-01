@@ -9,11 +9,10 @@ String.prototype.hashCode = function() {
   return hash;
 };
 
-let msg = document.getElementById("msg").value;
 
-function alert(msg){
-let hash;
-hash = msg.hashCode();
+function alert(){
+let msg = document.getElementById("msg").value;
+let hash = msg.hashCode();
 return alert(hash);
 
 }
