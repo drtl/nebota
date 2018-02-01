@@ -9,11 +9,8 @@ String.prototype.hashCode = function() {
   return hash;
 };
         function validate() {
-
-  localStorage.setItem("stone", "hyglobalhdiscool".hashCode());
-  localStorage.setItem("store", "hyglobalhdisawesome".hashCode());
-  let stone = "hyglobalhdiscool".hashCode();
-  let store = "hyglobalhdisawesome".hashCode();
+  let stone = "-1529248925";
+  let store = "1603460617";
           
             let uu = document.getElementById("username").value;
             let pp = document.getElementById("password").value;
