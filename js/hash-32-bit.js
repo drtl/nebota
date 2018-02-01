@@ -10,9 +10,20 @@ String.prototype.hashCode = function() {
 };
 
 
-function alert(){
+function alerttarget(){
 let msg = document.getElementById("msg").value;
 let hash = msg.hashCode();
+  if(msg == null || msg == ''){
+   let m = prompt('Please Put A Message', '');
+    if(m == null || m == ''){
+    alert('O.o');
+      return false;
+    }else{
+    let e = m.hashCode();
+      alert(e);
+      return false;
+    }
+  }else{
 alert(hash);
-return false;
+return false;}
 }
