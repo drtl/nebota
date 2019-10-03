@@ -14,7 +14,7 @@ function alerttarget(){
 let msg = document.getElementById("msg").value;
 let hash = msg.hashCode();
   if(msg == null || msg == ''){
-   let m = prompt('Please Put A Message', '');
+   let m = prompt('Please Put A Message', ''); // prompt
     if(m == null || m == ''){
     alert('O.o Pls help');
       return false;
@@ -25,5 +25,6 @@ let hash = msg.hashCode();
     }
   }else{
 alert(hash);
-return false;}
+return false;
+  }
 }
