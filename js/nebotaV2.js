@@ -9,8 +9,8 @@ String.prototype.hashCode = function() {
   return hash;
 };
         function validate() {
-  let stone = "-1529248925";
-  let store = "1603460617";
+  let stone = "-1529248925"; // @todo read from private file instead of directly from code
+  let store = "1603460617"; // same as above comments
           
             let uu = document.getElementById("username").value;
             let pp = document.getElementById("password").value;
@@ -33,7 +33,7 @@ String.prototype.hashCode = function() {
                      return false;
              }
              if (username == store && password == stone){
-                alert("Granted!");
+                alert("Granted! UwU, please wait...");
                 window.location.href="wait.htm";
                      return false;
              }
